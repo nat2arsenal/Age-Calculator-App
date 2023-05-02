@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Age calculator app</title>
+    <!-- <script src="index.js"></script> -->
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="input-forms">
+          <div class="input-form">
+            <h4 class="input-label">DAY</h4>
+            <input
+              type="number"
+              id="input-box-day"
+              placeholder="DD"
+              class="input-box"
+            />
+            <span class="error-output" id="error-output-day"></span>
+          </div>
+          <div class="input-form">
+            <h4 class="input-label">MONTH</h4>
+            <input
+              type="number"
+              id="input-box-month"
+              placeholder="MM"
+              class="input-box"
+            />
+            <span class="error-output" id="error-output-month"></span>
+          </div>
+          <div class="input-form">
+            <h4 class="input-label">YEAR</h4>
+            <input
+              type="number"
+              id="input-box-year"
+              placeholder="YYYY"
+              class="input-box"
+            />
+            <span class="error-output" id="error-output-year"></span>
+          </div>
+          <div class="button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="46"
+              height="44"
+              viewBox="0 0 46 44"
+            >
+              <g fill="none" stroke="#FFF" stroke-width="2">
+                <path
+                  d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"
+                />
+              </g>
+            </svg>
+          </div>
+        </div>
+
+        <div class="output">
+          <h1 class="text">
+            <em><span id="years">- -</span>years</em>
+          </h1>
+          <h1 class="text">
+            <em><span id="months">- -</span>months</em>
+          </h1>
+          <h1 class="text">
+            <em><span id="days">- -</span>days</em>
+          </h1>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Kevin Nathaniel Arsenal</a>.
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
